@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Player</OriginalElement>
+  <nodes>
+    <node x="197.0" y="80.0">RandomPlayer</node>
+    <node x="696.75" y="0.0">Player</node>
+    <node x="587.0" y="80.0">HumanPlayer</node>
+    <node x="1079.0" y="80.0">PassivePlayer</node>
+    <node x="746.0" y="80.0">MonteCarloPlayer</node>
+    <node x="364.00000000000006" y="80.0">BasicMonteCarloPlayer</node>
+    <node x="1243.0" y="80.0">ChallengingPlayer2</node>
+    <node x="934.0" y="80.0">KillerPlayer</node>
+    <node x="0.0" y="80.0">ChallengingPlayer1</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="HumanPlayer" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="656.5" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="BasicMonteCarloPlayer" target="Player" relationship="GENERALIZATION">
+      <point x="-5.6843418860808015E-14" y="-15.0" />
+      <point x="465.5" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="RandomPlayer" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="270.5" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="PassivePlayer" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1151.0" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ChallengingPlayer1" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="88.5" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="KillerPlayer" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="996.5" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="MonteCarloPlayer" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="830.0" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="ChallengingPlayer2" target="Player" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1331.5" y="55.0" />
+      <point x="743.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8513888888888889" showDependencies="true" x="710.0" y="55.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
